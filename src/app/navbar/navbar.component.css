@@ -1,6 +1,7 @@
 .mat-toolbar{
     background-color: cornflowerblue;
     color: white;
+    position:absloute;
   }
   .mat-button{
      color: white;

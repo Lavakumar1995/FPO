@@ -1,0 +1,27 @@
+.header{
+    background-color: white;
+    color: white;
+   
+    height: 13%;
+  }
+  #logo1{
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: relative;
+    
+  }
+  #logo2{
+    height: 100px;
+    width: 100px;
+    position: relative;
+ 
+    
+  }
+  #logo3{
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: relative;
+    
+  }

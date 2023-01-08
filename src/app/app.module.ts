@@ -15,6 +15,7 @@ import { DirectorsListComponent } from './directors-list/directors-list.componen
 import { EventComponent } from './event/event.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { UpperheaderComponent } from './upperheader/upperheader.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     DirectorsListComponent,
     EventComponent,
     GalleryComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    UpperheaderComponent
     
   ],
   imports: [
