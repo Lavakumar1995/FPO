@@ -1,0 +1,18 @@
+.introduction{
+  
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: justify;
+}
+#abouttable{
+    padding-right: 10%;
+    width:85%;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    padding-left: 15%;
+}
