@@ -1,0 +1,9 @@
+.introduction{
+  
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: justify;
+}
