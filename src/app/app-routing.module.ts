@@ -8,6 +8,7 @@ import { DocumentComponent } from './document/document.component';
 import { EventComponent } from './event/event.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { OutputproductsComponent } from './outputproducts/outputproducts.component';
 
 const routes: Routes = [
  {
@@ -44,7 +45,11 @@ component:GalleryComponent
  {
   path:'contactus',
 component:ContactusComponent
- }
+ },
+ {
+  path:'outputproducts',
+component:OutputproductsComponent
+ },
  
 ];
 

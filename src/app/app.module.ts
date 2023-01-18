@@ -14,6 +14,8 @@ import { EventComponent } from './event/event.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HeaderlogoComponent } from './headerlogo/headerlogo.component';
+import { FooterComponent } from './footer/footer.component';
+import { OutputproductsComponent } from './outputproducts/outputproducts.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { HeaderlogoComponent } from './headerlogo/headerlogo.component';
     EventComponent,
     GalleryComponent,
     ContactusComponent,
-    HeaderlogoComponent
+    HeaderlogoComponent,
+    FooterComponent,
+    OutputproductsComponent
   ],
   imports: [
     BrowserModule,
