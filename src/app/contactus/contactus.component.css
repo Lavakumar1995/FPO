@@ -1,9 +1,5 @@
-.introduction{
+.deco{
   
-    position: relative;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-transform: capitalize;
-    text-decoration: solid;
-    text-align: justify;
+   text-align: center;
+   padding-left: 250px;
 }
