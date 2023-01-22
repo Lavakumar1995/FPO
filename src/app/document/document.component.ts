@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;  
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-document',
@@ -10,6 +12,23 @@ export class DocumentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    AOS.init();
+    AOS.refresh();
+
+
+
+
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+
+    
+
+
   }
+
 
 }
